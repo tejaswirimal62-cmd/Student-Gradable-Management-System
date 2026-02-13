@@ -28,7 +28,8 @@ public class StudentManagementSystem {
         List<Student> loaded = FileHandler.loadStudents(fileName);
         if (loaded != null) {
             students = loaded;
-            System.out.println("Data loaded from " + fileName); // ✅ confirmation message
+            System.out.println("Data loaded from " + fileName); 
         }
     }
 }
+
